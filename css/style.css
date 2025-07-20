@@ -1,0 +1,150 @@
+/* Umum */
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  background-color: #2d2d2d;
+  width: 100%;
+  margin: 0 auto;
+  /* height: 90vh; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Header */
+.wrap .header {
+  background-color: #007acc;
+  /* padding: 20px 40px; */
+  text-align: center;
+  color: white;
+}
+
+.wrap .header h1,
+.wrap .header p {
+  margin: 0;
+}
+
+/* Badan */
+.badan {
+  display: flex;
+  height: calc(100% - 140px); /* Sisakan untuk header & footer */
+}
+
+/* Sidebar */
+.wrap .badan .sidebar {
+  background-color: #252526;
+  width: 20%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.wrap .badan .sidebar h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.wrap .badan .sidebar img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 100px;
+  border: 2px solid white;
+  
+}
+
+.wrap .badan .sidebar .menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wrap .badan .sidebar .menu ul li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #3c3c3c;
+  text-align: center;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.wrap .badan .sidebar .menu ul li:hover {
+  background-color: #007acc;
+}
+
+.wrap .badan .sidebar .menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Konten */
+.wrap .konten {
+  background: url("/My programming language/Web_Programming_kuliah/UAS-Kuliah/bg-login.jpg");
+  padding: 20px;
+  width: 80%;
+  overflow-y: auto;
+}
+
+
+/* Tabel */
+.wrap .konten .tabel {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.wrap .konten .tabel h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrap .konten .tabel table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #15ab47;
+}
+
+.wrap .konten .tabel th,
+.wrap .konten .tabel td {
+  padding: 10px;
+  border: 1px solid #555;
+  text-align: center;
+}
+
+.wrap .konten .tabel th {
+  background-color: #007acc;
+  color: white;
+}
+
+.wrap .konten .tabel tr:nth-child(even) {
+  background-color: #3c3c3c;
+}
+
+.wrap .konten .tabel tr:hover {
+  background-color: #1a1c187a;
+}
+.clear{
+    clear:both;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #08a9ee;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  height: 10%;
+}
